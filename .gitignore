@@ -1,1 +1,6 @@
 .idea
+mvnw
+.DS_Store
+mvnw.cmd
+.mvn
+.gitattributes

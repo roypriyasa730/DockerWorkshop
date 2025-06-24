@@ -1,11 +1,11 @@
-package com.example.ServicesTwo;
+package com.example.ServiceTwo;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/ping")
+@RequestMapping("/servicetwo/ping")
 public class ApiPingController {
     @GetMapping
     public String get(){

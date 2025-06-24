@@ -12,11 +12,11 @@
         },
         {
             "type": "java",
-            "name": "Spring Boot-ServicesTwoApplication<ServicesTwo>",
+            "name": "Spring Boot-ServiceTwoApplication<ServiceTwo>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
-            "mainClass": "com.example.ServicesTwo.ServicesTwoApplication",
-            "projectName": "ServicesTwo",
+            "mainClass": "com.example.ServiceTwo.ServiceTwoApplication",
+            "projectName": "ServiceTwo",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
         }

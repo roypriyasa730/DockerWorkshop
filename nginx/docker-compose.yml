@@ -1,0 +1,17 @@
+version: '3'
+services:
+  serviceone:
+    image: service-one
+    ports:
+      - "8080:8080"
+  servicetwo:
+    image: service-two
+    ports:
+      - "8090:8090"
+  nginx:
+    build: .
+    ports:
+      - "80:80"
+    depends_on:
+      - serviceone
+      - servicetwo

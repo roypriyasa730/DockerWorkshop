@@ -6,6 +6,8 @@ services:
       - "8080:8080"
   servicetwo:
     image: service-two
+    deploy:
+      replicas: 2 # This service is scaled to 5 replicas
     ports:
       - "8090:8090"
   custom-proxy:

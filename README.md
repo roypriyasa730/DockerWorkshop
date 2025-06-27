@@ -5,7 +5,7 @@ This project demonstrates how to run multiple microservices (Service One and Ser
 ## Features
 
 - **Service One**: Java-based microservice (runs on port 8090)
-- **Service Two**: Java-based microservice (runs on port 8888)
+- **Service Two**: Java-based microservice (runs on port 8090)
 - **Nginx**: Acts as a reverse proxy, routing requests to the appropriate service
 - **Docker Compose**: Manages multi-container setup and scaling
 

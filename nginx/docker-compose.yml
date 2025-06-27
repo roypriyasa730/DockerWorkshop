@@ -1,11 +1,15 @@
 version: '3'
 services:
   serviceone:
-    image: service-one
+    build:
+      context: ../ServiceOne
+      dockerfile: Dockerfile
     ports:
       - "8080:8080"
   servicetwo:
-    image: service-two
+    build:
+      context: ../ServiceTwo
+      dockerfile: Dockerfile
     deploy:
       replicas: 2 # This service is scaled to 5 replicas
     ports:
